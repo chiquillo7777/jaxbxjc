@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2020.01.18 a las 04:25:03 PM CST 
+
+  -->
+      
+    <bindings xmlns:tns="http://www.bharatthippireddy.com/Patient" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.bharatthippireddy.patient"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:Patient">
+                  
+            <class ref="com.bharatthippireddy.patient.Patient"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PaymentType">
+                  
+            <class ref="com.bharatthippireddy.patient.PaymentType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Insurance">
+                  
+            <class ref="com.bharatthippireddy.patient.Insurance"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Gender">
+                  
+            <typesafeEnumClass ref="com.bharatthippireddy.patient.Gender"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
